@@ -12,7 +12,7 @@ https://www.amazon.co.jp/dp/B016QEE30G/ref=dp-kindle-redirect?_encoding=UTF8&btk
 
 ### 解く問題
 - もくもく会：入門編、初級編
-- 定例：中級編
+- 定例：中級編、上級編（予め解いてくる）
 
 ## 進め方
 1. 大元のリポジトリ(後述)をforkする
