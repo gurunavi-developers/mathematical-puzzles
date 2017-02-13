@@ -9,6 +9,7 @@ https://www.amazon.co.jp/dp/B016QEE30G/ref=dp-kindle-redirect?_encoding=UTF8&btk
 ## 開催日
 - もくもく会：毎週木曜日の定時後
 - 定例：定時内に月１
+
 ### 解く問題
 - もくもく会：入門編、初級編
 - 定例：中級編
