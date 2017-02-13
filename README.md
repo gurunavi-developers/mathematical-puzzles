@@ -1,4 +1,4 @@
-# Scalaもくもく会
+# Scalaもくもく会：数学パズル編
 ## テキスト
 プログラマ脳を鍛える数学パズル シンプルで高速なコードが書けるようになる70問 
 https://www.amazon.co.jp/dp/B016QEE30G/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
