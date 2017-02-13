@@ -15,16 +15,15 @@ https://www.amazon.co.jp/dp/B016QEE30G/ref=dp-kindle-redirect?_encoding=UTF8&btk
 - 定例：中級編、上級編（予め解いてくる）
 
 ## 進め方
-1. 大元のリポジトリ(後述)をforkする
+1. [gurunavi-developers/matehmatical-puzzles](https://github.com/gurunavi-developers/matehmatical-puzzles)をforkする
 2. 各自でもくもくと解く。
-3. PRを作成する
-4. 一番いいコードを大元のリポジトリにmergeする
+3. [gurunavi-developers/matehmatical-puzzles](https://github.com/gurunavi-developers/matehmatical-puzzles)へのPRを作成する
+4. 一番いいコードを[gurunavi-developers/matehmatical-puzzles](https://github.com/gurunavi-developers/matehmatical-puzzles)にmergeする
 
 ## リポジトリ
-### URL
-- [gurunavi-developers/matehmatical-puzzles](https://github.com/gurunavi-developers/matehmatical-puzzles)
+### ディレクトリ構成  
+src以下に問題毎のディレクトリを作成する。  
 
-### ディレクトリ構成
 ```
 .
 └── matehmatical-puzzles/
