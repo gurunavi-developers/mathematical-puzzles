@@ -5,6 +5,7 @@ https://www.amazon.co.jp/dp/B016QEE30G/ref=dp-kindle-redirect?_encoding=UTF8&btk
 
 ### 使用言語
 - Scala
+- その他好きな言語
 
 ## 開催日
 - もくもく会：毎週木曜日の定時後
@@ -28,15 +29,17 @@ https://www.amazon.co.jp/dp/B016QEE30G/ref=dp-kindle-redirect?_encoding=UTF8&btk
 ```
 .
 ├── README.md
-├── <言語名>
-│   └── src
-│       └── Q1
-│           └── main.foo
+├── Scala
+│   └── src
+│       ├── Q1
+│       │   └── Main.scala
+│       └── Q2
+│           └── Main.scala
 .
 .
 .
-└── Scala
+└── <言語名>
     └── src
         └── Q1
-            └── Main.scala
+            └── foo.bar
 ```
