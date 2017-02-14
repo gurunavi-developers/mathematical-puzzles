@@ -22,15 +22,19 @@ https://www.amazon.co.jp/dp/B016QEE30G/ref=dp-kindle-redirect?_encoding=UTF8&btk
 
 ## リポジトリ
 ### ディレクトリ構成  
-src以下に問題毎のディレクトリを作成する。  
+- 言語ごとにディレクトリを切る
+- src以下に問題毎のディレクトリを作成する。  
 
 ```
 .
 ├── README.md
-├── Ruby
+├── <言語名>
 │   └── src
 │       └── Q1
-│           └── main.rb
+│           └── main.foo
+.
+.
+.
 └── Scala
     └── src
         └── Q1
