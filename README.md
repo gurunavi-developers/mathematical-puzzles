@@ -26,9 +26,13 @@ src以下に問題毎のディレクトリを作成する。
 
 ```
 .
-└── matehmatical-puzzles/
-    ├── README.md
-    └── src/
-        └── Q1/
+├── README.md
+├── Ruby
+│   └── src
+│       └── Q1
+│           └── main.rb
+└── Scala
+    └── src
+        └── Q1
             └── Main.scala
 ```
