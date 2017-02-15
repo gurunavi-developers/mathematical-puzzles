@@ -4,8 +4,11 @@ class String
   end
 end
 
-answer = (10..Float::INFINITY).lazy.select do |n|
-  n.to_s(2).palindrome? && n.to_s(8).palindrome? && n.to_s(10).palindrome?
-end.first
+from = 10
+bases = [10, 2, 8]
+
+answer = (from..Float::INFINITY).find do |n|
+  bases.all? {|b| n.to_s(b).palindrome?}
+end
 
 puts answer
