@@ -8,7 +8,7 @@ answers = (from..to).select do |n|
   chars = n.to_s.chars
   operators.any? do |op|
     r = 0
-    expr =  chars.zip(op).flatten.join('').gsub(/0+(\d)/) { $1 }
+    expr =  chars.zip(op).join('').gsub(/0+(\d)/) { $1 }
     eval 'r = ' + expr
     n.to_s == r.to_s.reverse
   end
