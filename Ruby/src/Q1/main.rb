@@ -1,12 +1,14 @@
-# 11から探索開始
-num = 11
-while true
-  if num.to_s == num.to_s.reverse &&
-     num.to_s(8) == num.to_s.reverse &&
-     num.to_s(2) == num.to_s.reverse
-    puts num
-    break
+class String
+  def palindrome?
+    self == self.reverse
   end
-  # 奇数だけを探すため、2つずつ増やす
-  num += 2
 end
+
+from = 10
+bases = [10, 2, 8]
+
+answer = (from..Float::INFINITY).find do |n|
+  bases.all? {|b| n.to_s(b).palindrome?}
+end
+
+puts answer
