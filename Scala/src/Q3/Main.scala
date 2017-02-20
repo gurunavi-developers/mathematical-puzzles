@@ -5,8 +5,8 @@ object Q3 extends App {
   val member = 2 to 100
 
   val ope = member map flipList(cards.max) // それぞれの番号のカードをひっくり返す番号の人を計算
-  val count = member map (num => ope.flatten.count(_ == num)) // ひっくり返された回数を計算
+  val count = cards map (num => ope.flatten.count(_ == num)) // ひっくり返された回数を計算
   val result = count.zipWithIndex.filter {case (d, i) => d % 2 == 0}
 
-  println(result.map(k => k._2+2)) // memberが2始まりなので、indexが0のカードが2になる
+  println(result.map(k => k._2+1)) // memberが2始まりなので、indexが0のカードが2になる
 }
